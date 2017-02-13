@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/travelList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:dividerHeight="16dp"
+      android:scrollbars="none"
+    android:divider="@null"
+    android:listSelector="@drawable/listview" >
+
+</ListView>

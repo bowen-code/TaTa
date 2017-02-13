@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="3dp"
+            android:hint="搜索关注"
+            android:padding="5dp"
+            android:id="@+id/search"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="5dp"
+            android:background="@drawable/foucs_serach"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:textColorHint="@color/gray_holo_light"
+            android:textSize="16sp" />
+    
+    <ListView
+        android:id="@+id/youjiList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/listview"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

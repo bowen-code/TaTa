@@ -1,0 +1,11 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/routeList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:divider="#CECECE"
+    android:dividerHeight="8dp"
+    android:listSelector="@drawable/listview"
+    android:scrollbars="none" >
+
+</ListView>

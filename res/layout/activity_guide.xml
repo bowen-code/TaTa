@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    >
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/viewGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewPager"
+        android:layout_marginTop="-50dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageView android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:id="@+id/img1"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_page_selected"/>
+        <ImageView android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:id="@+id/img2"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_page_normal"/>
+        <ImageView android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:id="@+id/img3"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_page_normal"/>
+        <ImageView android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:id="@+id/img4"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_page_normal"/>
+        <ImageView android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:id="@+id/img5"
+            android:layout_margin="2dp"
+            android:src="@drawable/ic_page_normal"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,349 @@
+# view res/layout/ebpay_layout_base_bind.xml #generated:38
+-keep class android.inputmethodservice.KeyboardView { <init>(...); }
+
+# view res/layout/activity_graduate.xml #generated:65
+# view res/layout/activity_guide.xml #generated:6
+# view res/layout/activity_hot.xml #generated:66
+# view res/layout/activity_main.xml #generated:8
+# view res/layout/activity_my_reserve.xml #generated:62
+# view res/layout/activity_mycollect.xml #generated:53
+# view res/layout/activity_order_message.xml #generated:54
+# view res/layout/activity_product.xml #generated:17
+# view res/layout/bd_wallet_sign_channel_list.xml #generated:83
+# view res/layout/emojicons.xml #generated:93
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.alipay.sdk.auth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.baidu.paysdk.login.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:323
+-keep class com.baidu.paysdk.ui.BindCardDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:332
+-keep class com.baidu.paysdk.ui.BindCardDetailCredit2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:341
+-keep class com.baidu.paysdk.ui.BindCardDetailCreditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:314
+-keep class com.baidu.paysdk.ui.BindCardNoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:350
+-keep class com.baidu.paysdk.ui.BindSmsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.baidu.paysdk.ui.OrderHomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class com.baidu.paysdk.ui.PayResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class com.baidu.paysdk.ui.PcPwdCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.baidu.paysdk.ui.PwdCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:290
+-keep class com.baidu.paysdk.ui.PwdPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:298
+-keep class com.baidu.paysdk.ui.PwdPaySmsActivity { <init>(...); }
+
+# view res/layout/ebpay_pwdpay_payment_select.xml #generated:25
+-keep class com.baidu.paysdk.ui.PwdPaymentSelectorScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.baidu.paysdk.ui.PwdSetAndConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:358
+-keep class com.baidu.paysdk.ui.SelectBindCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:366
+-keep class com.baidu.paysdk.ui.SignChannelListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:306
+-keep class com.baidu.paysdk.ui.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.baidu.paysdk.ui.WelcomeActivity { <init>(...); }
+
+# view res/layout/bd_wallet_sign_channel_list.xml #generated:8
+# view res/layout/ebpay_activity_bind_sms.xml #generated:9
+# view res/layout/ebpay_activity_order_home.xml #generated:7
+# view res/layout/ebpay_activity_pay_result.xml #generated:8
+# view res/layout/ebpay_layout_base_bind.xml #generated:8
+# view res/layout/ebpay_layout_bond_card_view.xml #generated:8
+# view res/layout/ebpay_layout_pc_pass.xml #generated:7
+# view res/layout/ebpay_layout_set_pwd.xml #generated:8
+# view res/layout/ebpay_layout_setandconfirm_pwd.xml #generated:8
+# view res/layout/ebpay_layout_webview.xml #generated:7
+# view res/layout/wallet_base_pluginl_detail.xml #generated:10
+-keep class com.baidu.wallet.base.widget.BdActionBar { <init>(...); }
+
+# view res/layout/ebpay_layout_bind_card_detail.xml #generated:235
+# view res/layout/ebpay_layout_bind_card_no.xml #generated:82
+# view res/layout/ebpay_layout_bind_creditcard_detail.xml #generated:353
+-keep class com.baidu.wallet.base.widget.DivisionEditText { <init>(...); }
+
+# view res/layout/bd_wallet_sign_bank_info.xml #generated:37
+# view res/layout/wallet_base_pluginl_detail.xml #generated:24
+-keep class com.baidu.wallet.base.widget.NetImageView { <init>(...); }
+
+# view res/layout/wallet_base_view_six_pwd.xml #generated:115
+-keep class com.baidu.wallet.base.widget.PluginEditText { <init>(...); }
+
+# view res/layout/ebpay_layout_bind_creditcard_detail.xml #generated:262
+-keep class com.baidu.wallet.base.widget.SafeEditText { <init>(...); }
+
+# view res/layout/ebpay_layout_set_pwd.xml #generated:31
+# view res/layout/ebpay_layout_setandconfirm_pwd.xml #generated:32
+# view res/layout/ebpay_layout_setandconfirm_pwd.xml #generated:58
+# view res/layout/ebpay_pwdpay_activity.xml #generated:117
+# view res/layout/wallet_base_one_key_pay.xml #generated:126
+-keep class com.baidu.wallet.base.widget.SixNumberPwdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.mob.tools.MobUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.pingplusplus.android.PaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.tata.activity.AdviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:389
+-keep class com.tata.activity.AlbumActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.tata.activity.BalanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.tata.activity.BanjiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.tata.activity.BaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.tata.activity.CalendarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:413
+-keep class com.tata.activity.ChangepwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:457
+-keep class com.tata.activity.ConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:433
+-keep class com.tata.activity.DetailPriceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:437
+-keep class com.tata.activity.DetailRouteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:449
+-keep class com.tata.activity.DetailShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:417
+-keep class com.tata.activity.ForgetPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class com.tata.activity.GalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.tata.activity.GraduateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.tata.activity.GuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.tata.activity.HongbaoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.tata.activity.HotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:381
+-keep class com.tata.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.tata.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:453
+-keep class com.tata.activity.MoreDate { <init>(...); }
+
+# view AndroidManifest.xml #generated:397
+-keep class com.tata.activity.MyCollectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.tata.activity.MyReserveActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.tata.activity.MyWalletActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.tata.activity.NearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.tata.activity.NewPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:393
+-keep class com.tata.activity.OrderMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.tata.activity.PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:405
+-keep class com.tata.activity.PersonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.tata.activity.PrivateorderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.tata.activity.ProductActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.tata.activity.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.tata.activity.RentcarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.tata.activity.ReserveActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:461
+-keep class com.tata.activity.ReserveDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:429
+-keep class com.tata.activity.RuleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:445
+-keep class com.tata.activity.SchoolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.tata.activity.ScoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.tata.activity.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:425
+-keep class com.tata.activity.ShowMyPicture { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.tata.activity.ShowPicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.tata.activity.StarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:441
+-keep class com.tata.activity.TravelerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:385
+-keep class com.tata.activity.WriteShare { <init>(...); }
+
+# view AndroidManifest.xml #generated:401
+-keep class com.tata.activity.XiuGaiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:409
+-keep class com.tata.activity.XiugaiName { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.tata.utils.MainApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.tata.version.DownloadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.tata.view.CalendarProvider { <init>(...); }
+
+# view res/layout/activity_login.xml #generated:25
+# view res/layout/activity_person.xml #generated:26
+# view res/layout/activity_score.xml #generated:20
+# view res/layout/person.xml #generated:17
+-keep class com.tata.view.CircleImageView { <init>(...); }
+
+# view res/layout/activity_calendar.xml #generated:71
+-keep class com.tata.view.ExtendedCalendarView { <init>(...); }
+
+# view res/layout/activity_score.xml #generated:122
+-keep class com.tata.view.GuaGuaKa { <init>(...); }
+
+# view res/layout/activity_graduate.xml #generated:133
+# view res/layout/activity_hot.xml #generated:136
+-keep class com.tata.view.MyGridView { <init>(...); }
+
+# view res/layout/activity_banji.xml #generated:100
+# view res/layout/activity_near.xml #generated:100
+# view res/layout/activity_person.xml #generated:48
+# view res/layout/activity_search.xml #generated:99
+# view res/layout/collect_product.xml #generated:12
+-keep class com.tata.view.MyListView { <init>(...); }
+
+# view res/layout/activity_banji.xml #generated:97
+# view res/layout/activity_graduate.xml #generated:9
+# view res/layout/activity_hot.xml #generated:9
+# view res/layout/activity_near.xml #generated:97
+# view res/layout/activity_search.xml #generated:96
+# view res/layout/collect_product.xml #generated:9
+-keep class com.tata.view.MyScrollView { <init>(...); }
+
+# view res/layout/travel.xml #generated:57
+-keep class com.tata.view.MyViewPager { <init>(...); }
+
+# view res/layout/share.xml #generated:33
+# view res/layout/youji_share.xml #generated:2
+-keep class com.tata.view.PullToRefreshListView { <init>(...); }
+
+# view res/layout/activity_banji.xml #generated:91
+# view res/layout/activity_graduate.xml #generated:2
+# view res/layout/activity_hot.xml #generated:2
+# view res/layout/activity_near.xml #generated:91
+# view res/layout/activity_search.xml #generated:90
+# view res/layout/collect_product.xml #generated:2
+-keep class com.tata.view.PullToRefreshView { <init>(...); }
+
+# view res/layout/activity_show_pic.xml #generated:18
+# view res/layout/plugin_camera_gallery.xml #generated:59
+-keep class com.tata.view.ViewPagerFixed { <init>(...); }
+
+# view res/layout/time_picker.xml #generated:35
+# view res/layout/time_picker.xml #generated:44
+# view res/layout/time_picker.xml #generated:53
+-keep class com.tata.view.WheelView { <init>(...); }
+
+# view res/layout/activity_detail_share.xml #generated:38
+# view res/layout/share.xml #generated:68
+-keep class com.tata.view.emoji.EmojiconEditText { <init>(...); }
+
+# view res/layout/emojicon_item.xml #generated:8
+-keep class com.tata.view.emoji.EmojiconTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.unionpay.uppay.PayActivity { <init>(...); }
+
+# view res/layout/listview_row_layout.xml #generated:1
+-keep class github.ankushsachdeva.emojicon.EmojiconTextView { <init>(...); }
+
+# onClick res/layout/activity_product.xml #generated:23
+-keepclassmembers class * { *** back(...); }
+
+# onClick res/layout/activity_product.xml #generated:516
+-keepclassmembers class * { *** call(...); }
+
+# onClick res/layout/activity_product.xml #generated:495
+-keepclassmembers class * { *** collect(...); }
+
+# onClick res/layout/activity_product.xml #generated:536
+-keepclassmembers class * { *** reserve(...); }
+
+# onClick res/layout/activity_show_pic.xml #generated:24
+-keepclassmembers class * { *** savePic(...); }
+
+# onClick res/layout/activity_product.xml #generated:183
+-keepclassmembers class * { *** toDetailRoute(...); }
+

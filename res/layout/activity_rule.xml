@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left" 
+            android:textSize="18sp"
+             android:layout_marginTop="6dp"
+            android:text="预订须知："/>
+        <TextView
+            android:id="@+id/booking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+             />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left" 
+              android:textSize="18sp"
+              android:layout_marginTop="6dp"
+            android:text="退订须知："/>
+        <TextView
+            android:id="@+id/refund"
+            android:layout_width="wrap_content"
+             android:layout_gravity="left|top"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:orientation="vertical" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择日期"
+        android:textColor="#54BFFC"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout  android:layout_width="180dp"
+        android:layout_marginTop="18dp"
+         android:orientation="horizontal"
+         android:id="@+id/maleLayout"
+        android:layout_height="40dp">
+        
+    <TextView android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:text="确定"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/confirm"
+        android:clickable="true"
+        android:background="@drawable/unlogin"
+        android:textColor="@color/black"/>
+    <TextView android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:text="取消"
+        android:layout_weight="1"
+         android:gravity="center"
+        android:id="@+id/cancel"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+         android:background="@drawable/unlogin"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

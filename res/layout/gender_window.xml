@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:orientation="vertical" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <RelativeLayout  android:layout_width="fill_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="18dp"
+         android:layout_marginRight="12dp"
+         android:background="@drawable/unlogin"
+         android:id="@+id/maleLayout"
+         android:clickable="true"
+        android:layout_height="40dp">
+        
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:id="@+id/male"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"/>
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:id="@+id/maleOk"
+         android:visibility="invisible"
+        android:src="@drawable/ok"/>
+    </RelativeLayout>
+
+   <View android:layout_width="wrap_content"
+       android:layout_height="1dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:background="#E3E3E3"/>
+  <RelativeLayout  android:layout_width="fill_parent"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:layout_marginBottom="12dp"
+       android:background="@drawable/unlogin"
+       android:id="@+id/femaleLayout"
+        android:clickable="true"
+        android:layout_height="40dp">
+        
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女"
+        android:id="@+id/female"
+        android:layout_alignParentLeft="true"
+         android:layout_marginLeft="12dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"/>
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:id="@+id/femaleOk"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ok"/>
+    </RelativeLayout>
+</LinearLayout>

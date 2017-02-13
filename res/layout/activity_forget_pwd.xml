@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="45dp"
+    android:paddingRight="45dp" >
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/telephonenumber"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="电话号码"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="#75AFBE"
+        android:textCursorDrawable="@null"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#75AFBE" />
+
+    <LinearLayout
+        android:id="@+id/regist_checknumber_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/regist_checknumber_et"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/yzm"
+            android:ems="10"
+            android:hint="手机验证码"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#75AFBE"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/regist_getchecknumber_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/textview"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/regist_next_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logintextview"
+        android:text="下一步"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

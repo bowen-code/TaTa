@@ -1,0 +1,275 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@drawable/order_bg" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1.1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="16sp"
+                android:text="目的地"
+                android:textColor="#67B6E7" />
+
+            <EditText
+                android:id="@+id/destination"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/order_edit"
+                android:hint="输入目的地"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray_holo_dark"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="出发地"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <EditText
+                android:id="@+id/startPlace"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/order_edit"
+                android:hint="输入出发地"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray_holo_dark"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="出发日期"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/order_edit"
+                android:hint="选择出发日期"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray_holo_dark"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="出行天数"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp" >
+
+                <ImageView
+                    android:id="@+id/minusdayNum"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/sub" />
+
+                <TextView
+                    android:id="@+id/dayNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/minusdayNum"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:textColor="#67B6E7" />
+
+                <ImageView
+                    android:id="@+id/plusdayNum"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/dayNum"
+                    android:background="@drawable/add"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="出行人数"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp" >
+
+                <ImageView
+                    android:id="@+id/minuspersonNum"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/sub" />
+
+                <TextView
+                    android:id="@+id/personNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/minuspersonNum"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:textColor="#67B6E7" />
+
+                <ImageView
+                    android:id="@+id/pluspersonNum"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/personNum"
+                    android:background="@drawable/add" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="1.1" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="人均预算"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <EditText
+                android:id="@+id/budget"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/order_edit"
+                android:hint="输入人均预算"
+                android:textSize="14sp"
+                android:paddingLeft="4dp"
+                android:singleLine="true"
+                android:textColorHint="@color/gray_holo_dark"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_weight="3" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="其他"
+                 android:textSize="16sp"
+                android:textColor="#67B6E7" />
+
+            <EditText
+                android:id="@+id/require"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/order_edit"
+                android:gravity="left|top"
+                android:hint="请输入您的需求：酒店、交通工具、特殊需求等"
+                android:padding="4dp"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:textColorHint="@color/gray_holo_dark"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.5"
+            android:background="#5CB1F1"
+            android:gravity="center"
+            android:text="提交"
+             android:textSize="18sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

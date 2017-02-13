@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/hongba_pic" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="目前没有未使用的红包"
+            android:gravity="center"
+            android:textColor="@color/gray_holo_light"/>
+    </LinearLayout>
+
+</LinearLayout>

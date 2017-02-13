@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0099cc" >
+
+        <TextView
+            android:id="@+id/bt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="修改名字"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/bt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/tick"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/centerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="11"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/name"
+            android:hint="用户名"
+            android:background="@null"/>
+        <View android:layout_width="fill_parent"
+            android:background="@color/green"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="1dp"/>
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:text="好的用户名可以吸引别人的眼球。"
+            android:textColor="@color/gray_holo_light"
+            />
+        </LinearLayout>
+
+</LinearLayout>

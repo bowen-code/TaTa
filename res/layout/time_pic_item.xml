@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_page_selected"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"
+        android:id="@+id/year"
+        android:textSize="16sp"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/m_d"/>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+        <View android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            android:background="@color/gray"/>
+        <ImageView android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="28dp"
+            android:id="@+id/image"/>
+<!--         <FrameLayout android:layout_width="85dp" -->
+<!--             android:layout_height="85dp" -->
+<!--             android:layout_marginLeft="10dp" -->
+<!--             android:layout_marginTop="4dp" -->
+<!--             android:layout_marginBottom="28dp" -->
+<!--             android:id="@+id/image"/> -->
+        <RelativeLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="3dp"
+            >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/word"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pic_sum"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="共1张"
+           />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+         <View android:layout_width="fill_parent"
+            android:layout_height="0dp"
+           android:layout_weight="0.25"/>
+        
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+             android:gravity="center_vertical"
+            android:layout_weight="1.5">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="问题类型"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:id="@+id/type"
+                android:gravity="center"
+                android:textColor="#5EC0E3"/>
+            <EditText android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请选择产品类别"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/productType"
+                android:layout_toRightOf="@id/type"
+                android:textColorHint="@color/gray_holo_light"
+                android:gravity="center_vertical"
+               android:layout_centerVertical="true"
+                android:textSize="14sp"
+                />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_holo_light"/>
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="0dp"
+             android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_weight="1.5">
+             <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号码"
+                 android:textSize="16sp"
+                android:id="@+id/number"
+                android:layout_centerVertical="true"
+                 android:gravity="center"
+                android:textColor="#5EC0E3"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneNumber"
+                android:hint="请输入手机号码"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/number"
+                android:textColorHint="@color/gray_holo_light"
+                android:background="@drawable/phonenumber"
+                
+               />
+        </RelativeLayout>
+         <View android:layout_width="fill_parent"
+            android:layout_height="0dp"
+           android:layout_weight="0.25"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:hint="您留下的每个字都将帮助我们改善产品，期待你的反馈！"
+            android:gravity="left|top"
+            android:id="@+id/content"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColorHint="@color/gray_holo_light"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_weight="7"/>
+        
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5" />
+
+</LinearLayout>

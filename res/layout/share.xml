@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:cp="http://schemas.android.com/apk/res/com.tata"
+     xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="#0099cc" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="踏友分享"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <ImageView android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:id="@+id/writeMsg"
+            android:scaleType="centerInside"
+            android:src="@drawable/tata2"/>
+    </RelativeLayout>
+
+    <com.tata.view.PullToRefreshListView
+        android:id="@+id/shareList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.82"
+        android:cacheColorHint="#00000000"
+        android:divider="#E3E3E3"
+        android:dividerHeight="5dp"
+        android:scrollbars="none"
+        cp:mode="both"
+        android:listSelector="@drawable/listview" />
+<RelativeLayout
+        android:id="@+id/comment_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="-42dp"
+        android:background="@color/white"
+        android:visibility="gone">
+
+       <ImageView 
+        android:id="@+id/emoji_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/smiley"
+        android:layout_alignParentLeft="true"
+        />
+    <ImageView 
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_send_now"
+        />
+	<com.tata.view.emoji.EmojiconEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/emoji_btn"
+        android:layout_toLeftOf="@id/send"
+        emojicon:emojiconSize="25sp" />
+	
+        </RelativeLayout>
+</LinearLayout>

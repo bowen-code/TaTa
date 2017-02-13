@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tata.view.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:cp="http://schemas.android.com/apk/res/com.tata"
+    android:id="@+id/youjiList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:cacheColorHint="#00000000"
+    android:divider="#E3E3E3"
+    android:dividerHeight="2dp"
+    android:background="@color/white"
+    android:listSelector="@drawable/listview"
+    cp:mode="both"
+    android:scrollbars="none" >
+
+</com.tata.view.PullToRefreshListView>

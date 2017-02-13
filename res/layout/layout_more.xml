@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal" >
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="18dp"
+        android:gravity="center"
+        android:id="@+id/like">
+   <ImageView android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageState"
+        android:background="@drawable/like"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/dianzanState"
+        android:text="赞"/>
+    </LinearLayout>
+    <View android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_holo_dark"/>
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/comment">
+    <ImageView android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/comment_icon"/>
+      <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+         android:layout_marginLeft="4dp"
+        android:text="评论"/>
+     </LinearLayout>
+</LinearLayout>
